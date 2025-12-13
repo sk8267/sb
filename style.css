@@ -14,27 +14,27 @@ body {
 
 .team {
   background-color: white;
-  padding: 20px;
+  padding: 10px;  /* Reduced padding */
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  width: 200px;
+  width: 150px;  /* Reduced width */
   text-align: center;
 }
 
 h3 {
-  font-size: 20px;
-  margin-bottom: 10px;
+  font-size: 16px;  /* Reduced font size for team name */
+  margin-bottom: 5px;  /* Reduced margin */
 }
 
 .controls {
-  margin-top: 10px;
+  margin-top: 5px;  /* Reduced margin */
 }
 
 button {
-  font-size: 18px;
-  padding: 10px;
-  width: 40px;
-  margin: 5px;
+  font-size: 16px;  /* Reduced button size */
+  padding: 8px;  /* Reduced padding */
+  width: 30px;  /* Reduced width */
+  margin: 3px;  /* Reduced margin between buttons */
   cursor: pointer;
 }
 
@@ -43,7 +43,7 @@ button:focus {
 }
 
 #score-0, #score-1, #score-2 {
-  font-size: 30px;
+  font-size: 20px;  /* Reduced score font size */
   font-weight: bold;
 }
 
