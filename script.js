@@ -16,10 +16,9 @@ function changeScore(teamIndex, change) {
 }
 
 // Initialize the score display
-updateDisplay();
-
-// Add event listeners to buttons after DOM content is loaded
 document.addEventListener("DOMContentLoaded", () => {
+  updateDisplay();
+
   document.querySelectorAll('.btn-increase').forEach(button => {
     button.addEventListener('click', () => {
       const teamIndex = parseInt(button.getAttribute('data-team'), 10);
