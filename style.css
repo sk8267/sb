@@ -1,0 +1,65 @@
+body {
+  font-family: 'Maven Pro', sans-serif;
+}
+
+.scoreboard {
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Maven Pro', sans-serif;
+  max-width: 650px;
+  margin: 20px auto;
+}
+
+.team {
+  text-align: center;
+  padding: 15px;
+  border-radius: 10px;
+  width: 160px;
+  color: #fff;
+}
+
+.team-1 {
+  background-color: #6ec6ff; /* light blue */
+}
+
+.team-2 {
+  background-color: #e53935; /* red */
+}
+
+.team-3 {
+  background-color: #43a047; /* green */
+}
+
+h3 {
+  text-transform: uppercase; /* Capitalizes the team names */
+  font-weight: 700; /* Bold team names */
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+button {
+  font-size: 20px;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  opacity: 0.85;
+}
+
+span {
+  font-size: 24px;
+  min-width: 32px;
+  display: inline-block;
+}
