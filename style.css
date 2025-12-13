@@ -18,7 +18,7 @@ body {
   padding: 5px;  /* Smaller padding */
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  width: 100px;  /* Reduced width by half */
+  width: 150px;  /* Reduced width by half */
   text-align: center;
 }
 
@@ -59,4 +59,5 @@ button:focus {
 .team-3 {
   background-color: green;
 }
+
 
