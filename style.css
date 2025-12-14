@@ -15,7 +15,7 @@ body {
 
 .team {
   background-color: transparent; /* Remove background from team boxes */
-  padding: 5px;  /* Smaller padding */
+  padding: 5px 10px 10px 10px;  /* Smaller padding */
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   width: 150px;  /* Reduced width by half */
@@ -59,6 +59,7 @@ button:focus {
 .team-3 {
   background-color: #FFDAB9;
 }
+
 
 
 
