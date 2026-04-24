@@ -1,30 +1,33 @@
-/* General styling */
 body {
-  font-family: 'Maven Pro', sans-serif;
-  margin: 0;
-  padding: 0;
+  font-family: 'Cabin Sketch', sans-serif;
+  color: #ffffff;
+  margin: 10px;
+  padding: 10px;
   background-color: transparent; /* Remove any background */
 }
 
 .scoreboard {
   display: flex;
-  justify-content: space-around;
-  margin-top: 5px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1px;
   background-color: transparent; /* Remove background from scoreboard */
 }
 
 .team {
-  background-color: transparent; /* Remove background from team boxes */
-  padding: 5px 10px 10px 10px;  /* Smaller padding */
-  border-radius: 8px;
+  color: #ffffff;
+  padding: 5px;
+  border-radius: 2px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  width: 150px;  /* Reduced width by half */
+  width: 120px;
+  height: auto;
   text-align: center;
 }
 
 h3 {
-  font-size: 30px;  /* Keep the team name font size the same */
+  font-size: 30px;
   margin-bottom: 5px;
+  margin-top: -2px;
 }
 
 .controls {
@@ -37,6 +40,7 @@ button {
   width: 25px;  /* Reduced button width */
   margin: 3px;  /* Reduced margin between buttons */
   cursor: pointer;
+  
 }
 
 button:focus {
@@ -49,17 +53,19 @@ button:focus {
 }
 
 .team-1 {
-  background-color: #F5DF96;
+  background-color: #353839;
+  color: #ffffff;
 }
 
 .team-2 {
-  background-color: #F5DF96;
+  background-color: #353839;
+  color: #ffffff;
 }
 
 .team-3 {
-  background-color: #F5DF96;
+  background-color: #353839;
+  color: #ffffff;
 }
-
 
 
 
